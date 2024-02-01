@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Times New Roman';
+}
+#table-content {
+    margin: 25px;
+    
+    
+}
+
+#wiki-page {
+   order: 2;
+   flex: 1;
+   
+}
+#layout{
+    display: flex;
+    width:80%;
+    margin: 0px auto;
+}
