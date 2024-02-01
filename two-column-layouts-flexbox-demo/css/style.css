@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+}
+#sidebar-content {
+    background-color:aqua;
+    width: 250px;
+   order: 2;
+}
+#sidebar-content h2{
+    border-bottom: 2px solid hotpink;
+    padding-bottom: 8px;
+    font-family: fantasy;
+}
+#main-content {
+    background-color: aquamarine;
+    flex: 1;
+    order: 1;
+
+}
