@@ -63,30 +63,35 @@ grid-template-areas: "header header"
                 .bluetube-item .thumbnail-placeholder {
                     aspect-ratio: 16 / 9;
                     background-image: url(../images/leon-youtube-video.png);
+                    background: radial-gradient(at top left, crimson, orange);
                     background-size: cover;
                     border-radius: 8px;
                 }
                 #m2 .thumbnail-placeholder {
                     aspect-ratio: 16 / 9;
                     background-image: url(../images/leon-youtube-thumbnail.png);
+                    background: radial-gradient(at top left, crimson, orange);
                     background-size: cover;
                     border-radius: 8px;
                 }
                 #m3 .thumbnail-placeholder {
                     aspect-ratio: 16 / 9;
                     background-image: url(../images/leon_netflix_resident_evil_4k_hd_resident_evil.jpg);
+                    background: radial-gradient(at top left, crimson, orange);
                     background-size: cover;
                     border-radius: 8px;
                 }
                 #m4 .thumbnail-placeholder {
                     aspect-ratio: 16 / 9;
                     background-image: url(../images/leon-edits.png);
+                    background: radial-gradient(at top left, crimson, orange);
                     background-size: cover;
                     border-radius: 8px;
                 }
                 #m5 .thumbnail-placeholder {
                     aspect-ratio: 16 / 9;
                     background-image: url(../images/leon-thumbnail.png);
+                    background: radial-gradient(at top left, crimson, orange);
                     background-size: cover;
                     border-radius: 8px;
                 }
