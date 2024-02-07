@@ -56,6 +56,25 @@ grid-template-areas: "header header"
                     gap: 20px;
                  
                 }
-                #m1.thumbnail {
-                    background-image: url(../images/Screenshot\ 2024-02-05\ 121907.png);
+                .bluetube-item .video-channel {
+                    margin-bottom: 4px;
+                }
+            
+                .bluetube-item .thumbnail-placeholder {
+                    aspect-ratio: 16 / 9;
+                    background-image: url(../images/leon-youtube-video.png);
+                    background-size: cover;
+                    border-radius: 8px;
+                }
+                #m2 .thumbnail-placeholder {
+                    background-image: url(../images/leon-youtube-thumbnail.png);
+                }
+                #m3 .thumbnail-placeholder {
+                    background-image: url(../images/leon_netflix_resident_evil_4k_hd_resident_evil.jpg);
+                }
+                #m4 .thumbnail-placeholder {
+                    background-image: url(../images/leon-edits.png);
+                }
+                #m5 .thumbnail-placeholder {
+                    background-image: url(../images/leon-thumbnail.png);
                 }
