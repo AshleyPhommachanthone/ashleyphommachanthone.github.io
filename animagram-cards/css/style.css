@@ -13,7 +13,6 @@
     border: 3px solid white;
     background-color: white;
    border-radius: 14px;
-   
     
 }
 
@@ -31,6 +30,8 @@ text-align: center;
 text-align: center;
 }
 
-.profile-pic-container.animagram-footer {
-    
+.profile-pic-container,.animagram-footer {
+  text-align: center;
+
+  
 }
