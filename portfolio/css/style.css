@@ -40,10 +40,20 @@
     padding-top: 20vh;
 }
 
-.card-style-1 {
-    max-width: 350px;
-    background-color:lightcoral;
+
+.card {
+    flex: 1;
+    color: black;
+    height: 320px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
     margin: 48px;
-    text-align: center;
+    max-width: 350px;
+    border: 1px solid lightcoral;
+    background-color: lightcoral;
+    border-radius: 14px;
+    
 }
+
 
