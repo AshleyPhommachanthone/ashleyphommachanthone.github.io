@@ -55,3 +55,14 @@
     display: flex;
 
 }
+.card-style-3 i {
+    background: radial-gradient(white 40%, #333333);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    font-size: 14px;
+}
