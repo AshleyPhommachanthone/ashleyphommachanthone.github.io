@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+font-family: Verdana;
+}
+
+#navbar {
+    background: rgb(124, 74, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: grey;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+    text-align: center;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+#hero-1 {
+    background-image: url(../images/papaya-salad.webp);
+    height: 80vh;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero-1 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    margin: 5vh 5vw 10vh 0p
+ }
+
+ #menu {
+    text-align: center;
+    margin: 0px;
+ }
+
+ 
