@@ -4,7 +4,7 @@
 
 body {
 margin: 0px;
-font-family: Verdana;
+font-family: "Playfair Display", serif;
 }
 
 #navbar {
@@ -42,13 +42,18 @@ a:hover  {
     text-align: center;
     margin-right: 24px;
 }
+@media  screen and (max-width=200px) and (min-width=300px) {
+    #layout {
+        width: 800px;
+        margin: 48px auto;
+        font-size: 24px;
+        height: 200vh;
+    }
+    
+}
 
 #layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
-    text-align: center;
+    text-align: center ;
 }
 
 #header {
@@ -59,6 +64,7 @@ a:hover  {
 
 #logo {
     font-weight: bold;
+    font-size: 30px;
 }
 
 #hero-1 {
@@ -100,5 +106,22 @@ a:hover  {
     text-align: center;
     background-color: goldenrod;
     
+ }
+
+ #hiring a {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+ }
+
+ #hiring:hover a {
+    background-color: goldenrod;
  }
  
